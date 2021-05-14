@@ -110,8 +110,8 @@ header-includes:
  
    5. Копирование каталогов в произвольном каталоге. Скопировать каталог monthly.00 в каталог /tmp:
 
-     ![1](Photos/1(1).png){ #fig:001 width=70% }
-     ![2](Photos/1.png){ #fig:002 width=70% }
+![1](Photos/1(1).png){ #fig:001 width=70% }
+![2](Photos/1.png){ #fig:002 width=70% }
 
    Перемещение и переименование файлов и каталогов
    
@@ -128,7 +128,7 @@ header-includes:
   
    5. Переименование каталога, не являющегося текущим. Переименовать каталог reports/monthly.01 в reports/monthly:
 
-     ![3](Photos/2.png){ #fig:002 width=70% }
+![3](Photos/2.png){ #fig:002 width=70% }
    
    Изменение прав доступа
 
@@ -142,15 +142,15 @@ header-includes:
 
     4. Требуется создать файл ~/abc1 с правом записи для членов группы(g+w):
 
-     ![4](Photos/3(1).png){ #fig:003 width=70% }
-     ![4](Photos/3.png){ #fig:003 width=70% }
+![4](Photos/3(1).png){ #fig:003 width=70% }
+![4](Photos/3.png){ #fig:003 width=70% }
 
 2. Выполните следующие действия, зафиксировав в отчёте по лабораторной работе используемые при этом команды и результаты их выполнения:
 
     2.1. Скопируйте файл /usr/include/sys/io.h в домашний каталог и назовите его equipment. Если
 файла io.h нет, то используйте любой другой файл в каталоге /usr/include/sys/ вместо него
 
-     ![5](Photos/4.png){ #fig:004 width=70% }
+![5](Photos/4.png){ #fig:004 width=70% }
     Сначала у меня возникла проблема с тем , что при запуске команды cd /usr/include/sys я не
 смог найти файл usr/include/sys/, поэтому я установил его с помощью
 sudo apt-get install libc6-dev-i386 , а затем он заработал.
@@ -169,8 +169,8 @@ sudo apt-get install libc6-dev-i386 , а затем он заработал.
 
     2.8. Создайте и переместите каталог ~/newdir в каталог ~/ski.plases и назовите его plan:
 
-    ![6](Photos/5.png){ #fig:005 width=70% }
-    ![7](Photos/6.png){ #fig:006 width=70% }
+![6](Photos/5.png){ #fig:005 width=70% }
+![7](Photos/6.png){ #fig:006 width=70% }
     
 
 3. Определите опции команды chmod:
